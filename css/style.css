@@ -1,0 +1,66 @@
+/* GENERELT LAYOUT */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3e9ff; /* lys lilla baggrund */
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #2d2d2d; /* mørk tekst */
+}
+
+nav ul {
+  list-style: none;
+}
+
+/* OVERSKRIFTER */
+h1,
+h2,
+h3 {
+  text-align: left;
+  color: #4b2e83; /* dyb lilla */
+  margin-top: 20px;
+}
+
+/* TEKST */
+p {
+  width: 90%;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+/* BILLEDER – MOBILVENLIG STØRRELSE */
+img {
+  display: block;
+  width: 100%;
+  height: auto; /* hhh */
+  margin: 0px auto;
+  border-radius: 10px; /* bløde hjørner */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* let skygge */
+}
+
+/* NAVIGATION */
+nav a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  margin: 8px auto;
+  width: 90%;
+  max-width: 300px;
+  background-color: #d7b7ff; /* pastel lilla */
+  color: #2d2d2d;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+nav a:hover {
+  background-color: #caa2ff; /* lidt mørkere ved hover */
+}
+footer {
+  padding-block: 1rem;
+}
